@@ -1,0 +1,412 @@
+/*
+PALETA DE COLORES
+gris claro: EEEEEE
+gris: DDDDDD
+naranjado: FF8C32
+azul oscuro: 06113C 
+*/
+@media screen and (min-width:320px){
+    *{
+    padding: 0px;
+    margin: 0px;
+}
+.grid{
+    display: grid;
+    grid-template-areas:
+    "encabezado"
+    "barra"
+    "seccionA"
+    "seccionB"
+    "publicidad"
+    "piePagina";
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh 10vw 40vh 45vh 10vh 10vh;
+}
+.bg{
+    background-color: #EEEEEE;
+}
+.encabezado{
+    grid-area: encabezado;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra{
+    grid-area: barra;
+}
+.barra ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra ul a{
+    font-size:3vw;
+    text-decoration: none;
+}
+.barra ul li{
+    padding:2%;
+    list-style: none;
+}
+.seccionA{
+    grid-area: seccionA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.seccionA div{
+    background-color: #DDDDDD;
+    width: 90vw;
+    height: 34vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: justify;
+    font-size: 3vw;
+
+}
+.seccionA div img{
+    width: 60vw;
+    height: 20vh;
+}
+.seccionB{
+    grid-area: seccionB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.seccionB div{
+    background-color: #DDDDDD;
+    width: 90vw;
+    height: 34vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: justify;
+    font-size: 3vw;
+}
+.seccionB div iframe{
+    width: 60vw;
+    height:20vh;
+}
+.seccionB div img{
+    width: 25vw;
+    height: 25vh;
+}
+.publicidad{
+    grid-area: publicidad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.publicidad img{
+    width:50vw;
+}
+.piePagina{
+    grid-area: piePagina;
+}
+.facebook {
+    font-family: 'Roboto', sans-serif;
+    width: 3vw;
+}
+.twitter {
+    font-family: 'Roboto', sans-serif;
+    width: 3vw;
+}
+.instagram {
+    font-family: 'Roboto', sans-serif;
+    width: 3vw;
+}
+.redesSociales{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;  
+}
+.redesSociales ul{
+    display: flex;
+    justify-content: center;
+}
+.redesSociales ul li{
+    list-style: none;
+    padding:2%;
+}
+.redesSociales ul a{
+    text-decoration: none;
+}
+@media screen and (width:768px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .grid{
+        display: grid;
+        grid-template-areas:
+        "encabezado  encabezado encabezado"
+        "barra       seccionA   publicidad"
+        "barra       seccionB   publicidad"
+        "barra       piePagina  piePagina";
+        grid-template-columns: 15vw 65vw 20vw;
+        grid-template-rows: 15vh 45vh 50vh 15vh;
+    }
+    .bg{
+        background-color: #EEEEEE;
+    }
+    .encabezado{
+        grid-area: encabezado;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .barra{
+        grid-area: barra;
+        font-size:2vw;
+    }
+    .barra ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .barra ul li a{
+        font-size: 2vw;
+    }
+    .seccionA{
+        grid-area: seccionA;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .seccionA div{
+        background-color: #DDDDDD;
+        width: 35vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: justify;
+    }
+    .seccionA div img{
+        width: 25vw;
+        height: 25vh;
+    }
+    .seccionA div p{
+        font-size: 1.8vw;
+    }
+    .seccionA h2{
+        font-size: 2.5vw;
+    }
+    .seccionB{
+        grid-area: seccionB;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .seccionB div{
+        background-color: #DDDDDD;
+        width: 35vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: justify;
+    }
+    .seccionB div img{
+        width: 25vw;
+        height: 25vh;
+    }
+    .seccionB div p{
+        font-size: 1.8vw;
+    }
+    .seccionB h2{
+        font-size: 2.5vw;
+    }
+    .seccionB div iframe{
+        width: 30vw;
+        height: 35vh;
+    }
+    .publicidad{
+        grid-area: publicidad;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .publicidad img{
+        transform: rotate(-90deg);
+    }
+    .piePagina{
+        grid-area: piePagina;
+    }
+    .facebook {
+        font-family: 'Roboto', sans-serif;
+        width: 2vw;
+    }
+    .twitter {
+        font-family: 'Roboto', sans-serif;
+        width: 2vw;
+    }
+    .instagram {
+        font-family: 'Roboto', sans-serif;
+        width: 2vw;
+    }
+    .redesSociales{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+    .redesSociales ul{
+        display: flex;
+        width:4vw;
+    }
+    .redesSociales ul li{
+        list-style: none;
+    }
+    .redesSociales ul a{
+        text-decoration: none;
+        font-size: 2vw;
+    }
+}
+}
+@media screen and (min-width:1024px){
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.grid{
+    display: grid;
+    grid-template-areas:
+    "encabezado  encabezado"
+    "seccionA    seccionA"
+    "seccionB    seccionB"
+    "piePagina   piePagina";
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 15vh 50vh 50vh 25vh;
+}
+.bg{
+    background-color: #DDDDDD;
+}
+.encabezado{
+    grid-area: encabezado;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra{
+    grid-area: barra;
+    font-size:2vw;
+}
+.barra ul{
+    display: flex;
+    flex-direction: column;
+}
+.barra ul li a{
+    font-size: 2vw;
+}
+.seccionA{
+    grid-area: seccionA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.seccionA div{
+    background-color: #DDDDDD;
+    width: 45vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: justify;
+}
+.seccionA div img{
+    width: 40vw;
+    height: 35vh;
+}
+.seccionA div p{
+    font-size: 1.8vw;
+}
+.seccionA h2{
+    font-size: 2.5vw;
+}
+.seccionB{
+    grid-area: seccionB;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.seccionB div{
+    background-color: #DDDDDD;
+    width: 45vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: justify;
+}
+.seccionB div img{
+    width: 45vw;
+    height: 40vh;
+}
+.seccionB div p{
+    font-size: 1.8vw;
+}
+.seccionB h2{
+    font-size: 2.5vw;
+}
+.seccionB div iframe{
+    width: 45vw;
+    height: 45vh;
+}
+.publicidad{
+    grid-area: publicidad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.publicidad img{
+    transform: rotate(-90deg);
+}
+.piePagina{
+    grid-area: piePagina;
+}
+.facebook {
+    font-family: 'Roboto', sans-serif;
+    width: 2vw;
+}
+.twitter {
+    font-family: 'Roboto', sans-serif;
+    width: 2vw;
+}
+.instagram {
+    font-family: 'Roboto', sans-serif;
+    width: 2vw;
+}
+.redesSociales{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.redesSociales ul{
+    display: flex;
+    width:4vw;
+}
+.redesSociales ul li{
+    list-style: none;
+}
+.redesSociales ul a{
+    text-decoration: none;
+    font-size: 2vw;
+}
+}
