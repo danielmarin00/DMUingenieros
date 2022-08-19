@@ -7,10 +7,5 @@ main{
 section{
     background-color: #DDDDDD;
 }
-footer{
-    background-color: #DDDDDD;
-}
-h1{
-    background-image: url("/imag/paleta.JPG");
-}
-@import "./layout/footer"
+
+@import "./layout/footer";

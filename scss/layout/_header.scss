@@ -1,0 +1,52 @@
+header{
+    height:230px;
+    
+}
+h1{
+    height:100px;
+    padding: 2%;
+    position: relative;
+    left: 0px;
+    font-size: 5rem;
+    color: #FF8C32;
+    background-color: #EEEEEE;
+    border: 20px solid #DDDDDD;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: #DDDDDD;
+    height: 100px;
+    }
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+.barraNavegacion li a{
+    color: #06113c;
+    
+}
+.barraNavegacion ul li{
+    padding: 4%;
+    display: inline;
+}
+.barraNavegacion{
+    text-align: center;
+}
+h2{
+    color: black;
+    padding: 0% 0% 2% 13%;
+    font-size:70px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+p{
+    color: black;
+    width: 1010px;
+    padding-left: 13%;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}

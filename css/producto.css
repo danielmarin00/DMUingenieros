@@ -1,108 +1,110 @@
-/*
-PALETA DE COLORES
-gris claro: EEEEEE
-gris: DDDDDD
-naranjado: FF8C32
-azul oscuro: 06113C 
-*/
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
 
-/* reestablecer parametros para los diferentes navegadores*/
-*{
-    padding: 0;
-    border: 0;
-    margin: 0;
+header {
+  height: 230px;
 }
-header{
-    height:230px;
-    
+
+h1 {
+  height: 100px;
+  padding: 2%;
+  position: relative;
+  left: 0px;
+  font-size: 5rem;
+  color: #FF8C32;
+  background-color: #EEEEEE;
+  border: 20px solid #DDDDDD;
+  font-family: "Roboto", sans-serif;
 }
-h1{
-    height:100px;
-    padding: 2%;
-    position: relative;
-    left: 0px;
-    font-size: 5rem;
-    color: #FF8C32;
-    background-color: #EEEEEE;
-    border: 20px solid #DDDDDD;
-    font-family: 'Roboto', sans-serif;
+
+nav {
+  background-color: #DDDDDD;
+  height: 100px;
 }
-nav{
-    background-color: #DDDDDD;
-    height: 100px;
-    }
-nav ul li a{
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
-li{
-    list-style: none;
+
+li {
+  list-style: none;
 }
-.barraNavegacion li a{
-    color: #06113c;
-    
+
+.barraNavegacion li a {
+  color: #06113c;
 }
-.barraNavegacion ul li{
-    padding: 4%;
-    display: inline;
+
+.barraNavegacion ul li {
+  padding: 4%;
+  display: inline;
 }
-.barraNavegacion{
-    text-align: center;
+
+.barraNavegacion {
+  text-align: center;
 }
-h2{
-    color: black;
-    padding: 0% 0% 2% 13%;
-    font-size:70px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
+
+h2 {
+  color: black;
+  padding: 0% 0% 2% 13%;
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
 }
-p{
-    color: black;
-    width: 1010px;
-    padding-left: 13%;
-    text-align: justify;
-    font-family: 'Roboto', sans-serif;
+
+p {
+  color: black;
+  width: 1010px;
+  padding-left: 13%;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
 }
-main{
-    background-color: #DDDDDD;
+
+main {
+  background-color: #DDDDDD;
 }
-section{
-    background-color: #DDDDDD;
+
+section {
+  background-color: #DDDDDD;
 }
-img{
-    width: 450px;
-    padding-left: 13%;}
+
+img {
+  width: 450px;
+  padding-left: 13%;
+  border: 2px solid black;
+}
 
 .facebook {
-    font-family: 'Roboto', sans-serif;
-    padding-left: 13%;
-    width: 25px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 13%;
+  width: 25px;
 }
+
 .twitter {
-    font-family: 'Roboto', sans-serif;
-    padding-left: 13%;
-    width: 25px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 13%;
+  width: 25px;
 }
+
 .instagram {
-    font-family: 'Roboto', sans-serif;
-    padding-left: 13%;
-    width: 25px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 13%;
+  width: 25px;
 }
-.redesSociales{
-    padding: 2% 0% 2% 13%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    
+
+.redesSociales {
+  padding: 2% 0% 2% 13%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
 }
-footer{
-    background-color: #DDDDDD;
+
+footer {
+  background-color: #DDDDDD;
 }
-h3{
-    color: black;
-    padding: 0% 0% 2% 13%;
-    font-size:30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-}
+
+/*# sourceMappingURL=producto.css.map */
